@@ -48,7 +48,8 @@ function removeFromCart(item) {
   for (let i = 0, l = cart.length; i < l; i++) {
     if (cart[i].hasOwnProperty(item)) {
       itemInCart = true;
-      cart.splice()
+      cart.splice(i, 1);
+      return cart;
     }
   }
 
