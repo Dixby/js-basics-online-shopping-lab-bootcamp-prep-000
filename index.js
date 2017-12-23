@@ -17,15 +17,15 @@ function addToCart(item) {
 }
 
 function viewCart() {
-+  if (cart.length == 0) {
- +    console.log('Your shopping cart is empty.')
- +  } else {
- +
- +    var cartContents = [];
- +
- +    for (let i = 0; i < cart.length; i++) {
- +      let item = Object.keys(cart[i])[0];
- +      let price = cart[i][item];
+  if (cart.length == 0) {
+    console.log('Your shopping cart is empty.')
+  } else {
+
+    var cartContents = [];
+
+    for (let i = 0; i < cart.length; i++) {
+      let item = Object.keys(cart[i])[0];
+      let price = cart[i][item];
      cartContents.push(`${item} at $${price}`);
   }
   
