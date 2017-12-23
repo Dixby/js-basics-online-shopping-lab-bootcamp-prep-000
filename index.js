@@ -48,7 +48,7 @@ function removeFromCart(item) {
       delete cart[i];
       return cart
     } else {
-      
+      console.log("That item is not in your cart.")
     }
   }
 }
