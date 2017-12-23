@@ -3,7 +3,7 @@ var cart = [];
 function getCart(item) {
   var newItem = {[item]: math.floor(math.random()*100)};
   cart.push(newItem);
-  console.log(`)
+  console.log(`${newItem} has been added to your cart.`)
   return cart;
 }
 
