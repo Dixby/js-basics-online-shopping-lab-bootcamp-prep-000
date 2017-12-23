@@ -23,7 +23,8 @@ function viewCart() {
   else {
     var cartItems = [];
     for (var i = 0; i < cart.length; i++);
-    let item = Object.keys(cart[i])[0]
+    let item = Object.keys(cart[i])[0];
+    let price = 
   }
   
 }
