@@ -47,6 +47,8 @@ function removeFromCart(item) {
     if (cart[i].hasOwnProperty(item) === true) {
       delete cart[i];
       return cart
+    } else {
+      
     }
   }
 }
