@@ -23,7 +23,7 @@ function viewCart() {
   else {
     var cartItems = [];
     for (var i = 0; i < cart.length; i++);
-    let item = Object.keys
+    let item = Object.keys(cart[i])
   }
   
 }
