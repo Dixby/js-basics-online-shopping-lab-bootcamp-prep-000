@@ -29,10 +29,8 @@ function viewCart() {
       incartItems.push(`${item} at $${price}`);
     }
   } if 
-    (cartContents.length == 1) {
-       cartContents;
-     } else if (cartContents.length == 2) {
-       cartContents = cartContents.join(' and ');
+    (incartItems.length == 1) {incartItems;
+     } else if (incartItems.length == 2) {incartItems = incartItems.join(' and ');
      } else {
        cartContents[cartContents.length - 1] = ', and '.concat(cartContents[cartContents.length - 1]);
        cartContents = cartContents.splice(0, cartContents.length - 1).join(', ') + cartContents[cartContents.length - 1];
