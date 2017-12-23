@@ -1,7 +1,7 @@
 var cart = [];
 
 function getCart(item) {
-  var newItem = {[item]: math.
+  var newItem = {[item]: math.floor(math.random)
   return cart;
 }
 
