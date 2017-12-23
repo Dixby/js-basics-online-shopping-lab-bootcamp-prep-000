@@ -27,14 +27,15 @@ function viewCart() {
       let item = Object.keys(cart[i])[0];
       let price = cart[i][item];
       incartItems.push(`${item} at $${price}`);
-    }
+    
   } if 
       (incartItems.length == 1) {incartItems;
      } else if (incartItems.length == 2) {incartItems = incartItems.join(' and ');
      } else {
         incartItems[incartItems.length - 1] = ', and '.concat(incartItems[incartItems.length - 1]);
         incartItems = incartItems.splice(0, incartItems.length - 1).join(', ') + incartItems[incartItems.length - 1];
-     }     
+     }
+  }
 }
 
 console.log(`In your cart, you have ${incartItems}.`);
