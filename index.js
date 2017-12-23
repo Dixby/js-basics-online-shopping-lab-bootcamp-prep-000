@@ -32,11 +32,10 @@ function viewCart() {
     (incartItems.length == 1) {incartItems;
      } else if (incartItems.length == 2) {incartItems = incartItems.join(' and ');
      } else {
-       cartContents[cartContents.length - 1] = ', and '.concat(cartContents[cartContents.length - 1]);
-       cartContents = cartContents.splice(0, cartContents.length - 1).join(', ') + cartContents[cartContents.length - 1];
+       incartItems[incartItems.length - 1] = ', and '.concat(incartItems[incartItems.length - 1]);
+       incartItems = incartItems.splice(0, incartItems.length - 1).join(', ') + incartItems[incartItems.length - 1];
      }
-   }
-   console.log(`In your cart, you have ${cartContents}.`);
+   } console.log(`In your cart, you have ${incartItems}.`);
     
   }
 }
