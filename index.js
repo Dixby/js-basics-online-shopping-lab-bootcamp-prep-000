@@ -1,5 +1,14 @@
 var cart = [];
 
+function getCart(item) {
+
+}
+
+function setCart(c) {
+  cart = c;
+  return cart;
+}
+
 function addToCart(item) {
   var newItem = {[item]: Math.floor(Math.random()*100)};
   cart.push(newItem);
