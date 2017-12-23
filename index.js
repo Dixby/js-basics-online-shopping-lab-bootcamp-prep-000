@@ -55,6 +55,6 @@ function removeFromCart(item) {
 
 function placeOrder(cardNumber) {
   if (cardNumber !== true) {
-    
+    console.log("Sorry, we don't have a ")
   }
 }
