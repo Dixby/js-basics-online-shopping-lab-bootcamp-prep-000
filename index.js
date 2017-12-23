@@ -26,7 +26,10 @@ function viewCart() {
   } else if (cart.length > 2) {
     var cartList = [];
     cartList.unshift(`In your cart, you have ${Object.keys(cart[0])[0]} at $${cart[0][Object.keys(cart[0])[0]]}`);
-    
+    for (let i = 1; i < cart.length - 1; i++) {
+      
+    }
+      
   }
 }
 
