@@ -30,7 +30,7 @@ function viewCart() {
       cartList.push(` ${Object.keys(cart[i])[0]} at $${cart[i][Object.keys(cart[i])[0]]}`);
     } 
     cartList.push(` and ${Object.keys(cart[cart.length -1])[0]} at $${cart[cart.length -1][Object.keys(cart[cart.length - 1])[0]]}.`);
-      
+    console.log(cartList.toString());
   }
 }
 
