@@ -29,7 +29,7 @@ function viewCart() {
       incartItems.push(`${item} at $${price}`);
     }
   } if 
-    (incartItems.length == 1) {incartItems;
+      (incartItems.length == 1) {incartItems;
      } else if (incartItems.length == 2) {incartItems = incartItems.join(' and ');
      } else {
         incartItems[incartItems.length - 1] = ', and '.concat(incartItems[incartItems.length - 1]);
