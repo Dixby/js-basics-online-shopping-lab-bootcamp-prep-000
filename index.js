@@ -28,7 +28,17 @@ function viewCart() {
       let price = cart[i][item];
       incartItems.push(`${item} at $${price}`);
     }
-  } if {
+  } if 
+    (cartContents.length == 1) {
+       cartContents;
+     } else if (cartContents.length == 2) {
+       cartContents = cartContents.join(' and ');
+     } else {
+       cartContents[cartContents.length - 1] = ', and '.concat(cartContents[cartContents.length - 1]);
+       cartContents = cartContents.splice(0, cartContents.length - 1).join(', ') + cartContents[cartContents.length - 1];
+     }
+   }
+   console.log(`In your cart, you have ${cartContents}.`);
     
   }
 }
