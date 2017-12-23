@@ -7,14 +7,7 @@ function addToCart(item) {
   return cart;
 }
 
-function getCart(item) {
 
-}
-
-function setCart(c) {
-  cart = c;
-  return cart;
-}
 
 
 
