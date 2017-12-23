@@ -17,7 +17,9 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  var
+  if (cart.lenght === 0);
+  console.log("Your shopping cart is empty.");
+  
 }
 
 function total() {
