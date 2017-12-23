@@ -28,6 +28,8 @@ function viewCart() {
       let price = cart[i][item];
       incartItems.push(`${item} at $${price}`);
     }
+  } if {
+    
   }
 }
   
